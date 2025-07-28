@@ -667,7 +667,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
-  overflow: hidden;
+  overflow:hidden;
   height: 30rem;
 }
 .work .box-container .box img {
@@ -678,7 +678,7 @@ header .navbar ul li a:hover {
 .work .box-container .box .content {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 85%;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
@@ -687,7 +687,13 @@ header .navbar ul li a:hover {
 }
 #hi{
   height:100%;
-  width:50%
+  width:100%;
+
+}
+.pos{
+  margin-top:-20px;
+  margin-left:120px;
+
 }
 
 .work .box-container .box .content .tag {
@@ -1233,5 +1239,9 @@ form .button-area {
 }
 #scroll-top.active {
   top: calc(100% - 12rem);
+}
+#size{
+  font-size:20px;
+  color :black;
 }
 /* scroll top ends */
